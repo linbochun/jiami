@@ -17,6 +17,8 @@
 		0D54382624D00618000CAE60 /* jiajiemiTestUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 0D54382524D00618000CAE60 /* jiajiemiTestUITests.m */; };
 		0D54383524D00684000CAE60 /* RSA.m in Sources */ = {isa = PBXBuildFile; fileRef = 0D54383424D00684000CAE60 /* RSA.m */; };
 		0D54383C24D0084F000CAE60 /* Security.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0D54383B24D0084F000CAE60 /* Security.framework */; };
+		0D92761824D1296D00F056A4 /* AES.m in Sources */ = {isa = PBXBuildFile; fileRef = 0D92761724D1296D00F056A4 /* AES.m */; };
+		0D92761D24D16C0E00F056A4 /* DES.m in Sources */ = {isa = PBXBuildFile; fileRef = 0D92761C24D16C0E00F056A4 /* DES.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -56,6 +58,10 @@
 		0D54383324D00684000CAE60 /* RSA.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = RSA.h; sourceTree = "<group>"; };
 		0D54383424D00684000CAE60 /* RSA.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RSA.m; sourceTree = "<group>"; };
 		0D54383B24D0084F000CAE60 /* Security.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Security.framework; path = System/Library/Frameworks/Security.framework; sourceTree = SDKROOT; };
+		0D92761624D1296D00F056A4 /* AES.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AES.h; sourceTree = "<group>"; };
+		0D92761724D1296D00F056A4 /* AES.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AES.m; sourceTree = "<group>"; };
+		0D92761B24D16C0E00F056A4 /* DES.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DES.h; sourceTree = "<group>"; };
+		0D92761C24D16C0E00F056A4 /* DES.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DES.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -114,6 +120,10 @@
 				0D54380524D00614000CAE60 /* ViewController.m */,
 				0D54383324D00684000CAE60 /* RSA.h */,
 				0D54383424D00684000CAE60 /* RSA.m */,
+				0D92761624D1296D00F056A4 /* AES.h */,
+				0D92761724D1296D00F056A4 /* AES.m */,
+				0D92761B24D16C0E00F056A4 /* DES.h */,
+				0D92761C24D16C0E00F056A4 /* DES.m */,
 				0D54380724D00614000CAE60 /* Main.storyboard */,
 				0D54380A24D00618000CAE60 /* Assets.xcassets */,
 				0D54380C24D00618000CAE60 /* LaunchScreen.storyboard */,
@@ -279,6 +289,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0D92761D24D16C0E00F056A4 /* DES.m in Sources */,
+				0D92761824D1296D00F056A4 /* AES.m in Sources */,
 				0D54380624D00614000CAE60 /* ViewController.m in Sources */,
 				0D54380024D00614000CAE60 /* AppDelegate.m in Sources */,
 				0D54383524D00684000CAE60 /* RSA.m in Sources */,
